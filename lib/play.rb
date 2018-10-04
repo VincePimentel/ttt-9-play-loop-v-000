@@ -41,6 +41,6 @@ def play(board)
   until step == 9
     turn(board)
     step += 1
-    puts "Game Over!"
   end
+  puts "Game Over!"
 end
